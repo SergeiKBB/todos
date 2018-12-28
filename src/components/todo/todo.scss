@@ -1,0 +1,17 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.done {
+  background-color: #a7a7a7;
+  text-decoration: line-through;
+}
